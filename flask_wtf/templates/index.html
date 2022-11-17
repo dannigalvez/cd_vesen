@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block innihald %}
+
+    <h1>Innskráning:</h1>
+    <form action="/login" method="GET">
+        {{ lf.csrf_token() }}
+       
+        {{ lf.notendanafn.label }}<br>
+        {{ lf.notendanafn }}<br><br>
+
+        {{ lf.lykilord.label }}<br>
+        {{ lf.lykilord }}<br><br>
+
+        {{ lf.prufa.label }}<br>
+        {{ lf.prufa(id="editor") }}<br><br>
+        
+        {{ lf.hnappur }}
+    </form>
+
+{% endblock %}
