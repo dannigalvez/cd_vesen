@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+body {
+	max-width: 50em;
+	margin:0 auto;
+	font-family: sans-serif;
+}
+.haus, .fotur {
+	border:1px solid grey;
+	border-radius: 5px;
+	color: #777;
+	text-align: center;
+}
+.fotur {
+	margin-top:2em;
+}
+.errormsg {
+	color:#700;
+	text-align: center;
+}
+.wrapper{
+    text-align: center;
+    padding: 1em;
+}
+img{
+    width: 200px;
+}
+nav {
+	padding-bottom:1em;
+}
+a{
+	color: gray;
+}

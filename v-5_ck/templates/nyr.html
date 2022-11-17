@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<form action="/" method="POST">
+    {{ f.csrf_token }}
+    <br>
+    {{ f.f.label }}<br>
+    {{ f.f }}<br><br>
+
+    {{ f.m.label }}<br>
+    {{ f.m(id="editor") }}<br> <!-- notum id='editor til að triggera CDEditor'-->
+
+    {{ f.h.label }}<br>
+    {{ f.h() }}<br><br>
+
+    {{ f.b }}<br>
+</form>
+
+{% endblock %}

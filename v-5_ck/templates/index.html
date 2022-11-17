@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% if lengd == 0 %}
+        <h2>Engin gögn til að birta, bættu við gögnum</h2>
+    {% else %}
+
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for m in messages %}
+                
+                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                        {{ m }}
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+
+                    {% endfor %}
+            {% endif %}
+            {% endwith %}
+
+        
+                <h1>{{ g["f"] }}</h1>
+
+        {{ g["m"]|safe }} <!-- notum filterinn safe til að fá html tögin til að renderast rétt -->
+        
+        <h3>{{ g["h"] }}</h3>
+    {% endif %}
+{% endblock %} 
