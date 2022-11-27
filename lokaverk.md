@@ -35,6 +35,6 @@
 
 ### Myndbönd
 
-* [How to deploy a Python (Flask) web app on a (PythonAnywhere) live server](https://www.youtube.c om/watch?v=75-oCKUx3oU)
+* [How to deploy a Python (Flask) web app on a (PythonAnywhere) live server](https://www.youtube.com/watch?v=75-oCKUx3oU)
 
 ---
