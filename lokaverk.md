@@ -29,6 +29,21 @@
 
 ---
 
+## Paginate. 
+
+* Ef vefsíða er að birta mikið af gögnum ( tweet / blog / ... ) getur verið þreytandi að scrolla niður alla síðuna til að finna réttu gögnin.  *Paginate* er leið til að brjóta gögnin niður í minni einingar og birta færri færlsur á hverri síðu en dreifa svo gögnunum á fleiri síður.  Tilheyrandi flipar birtast til að birta mismunandi síður...
+
+### Myndbönd
+
+* [Python 3 Flask Bootstrap 4 Pagination Example to Paginate Array of Users Using flask-paginate](https://www.youtube.com/watch?v=vt0OXl2WCGI)
+
+### Vefgreinar
+
+* [Flask-paginate](https://flask-paginate.readthedocs.io/en/master/)
+* [What is pagination](https://www.techtarget.com/whatis/definition/pagination)
+
+---
+
 ## Deployment og hýsing á [pythonanywhere](https://www.pythonanywhere.com/). 
 
 * PythonAnywhere is an online integrated development environment and web hosting service based on the Python programming language. Founded by Giles Thomas and Robert Smithson in 2012, it provides in-browser access to server-based Python and Bash command-line interfaces, along with a code editor with syntax highlighting (Wikipedia).
@@ -36,5 +51,3 @@
 ### Myndbönd
 
 * [How to deploy a Python (Flask) web app on a (PythonAnywhere) live server](https://www.youtube.com/watch?v=75-oCKUx3oU)
-
----
